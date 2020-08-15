@@ -34,6 +34,14 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   border:10px solid goldenrod;
   min-height:100vh;
   flex-wrap:wrap;
+  /* flex-direction: row; DEFAULT - main axis direction left to right */
+  flex-direction: row;
+    /* flex-direction: row; main axis direction right to left */
+  flex-direction: row-reverse;
+  /* flex-direction: column; main axis direction top to bottom */
+  flex-direction: column;
+  /* flex-direction: column; main axis direction bottom to top */
+  flex-direction: column-reverse;
 }
 
 .box {
